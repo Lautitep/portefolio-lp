@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-lp/static/css/main.9b157989.css",
-    "main.js": "/portfolio-lp/static/js/main.fa061b7c.js",
+    "main.js": "/portfolio-lp/static/js/main.d76cb7e2.js",
     "static/media/Tilli.couture.jpg": "/portfolio-lp/static/media/Tilli.couture.c7f312ae0920b981afa8.jpg",
     "static/media/Tilli.tilliste.jpg": "/portfolio-lp/static/media/Tilli.tilliste.d43c4195c6d43fccee75.jpg",
     "static/media/Tilli.home.jpg": "/portfolio-lp/static/media/Tilli.home.70bca9f1af70c768d873.jpg",
@@ -22,10 +22,10 @@
     "static/media/github.svg": "/portfolio-lp/static/media/github.3359e02273eab05e3dd9da444da8a33e.svg",
     "index.html": "/portfolio-lp/index.html",
     "main.9b157989.css.map": "/portfolio-lp/static/css/main.9b157989.css.map",
-    "main.fa061b7c.js.map": "/portfolio-lp/static/js/main.fa061b7c.js.map"
+    "main.d76cb7e2.js.map": "/portfolio-lp/static/js/main.d76cb7e2.js.map"
   },
   "entrypoints": [
     "static/css/main.9b157989.css",
-    "static/js/main.fa061b7c.js"
+    "static/js/main.d76cb7e2.js"
   ]
 }
