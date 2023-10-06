@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio-lp/static/css/main.9b157989.css",
+    "main.js": "/portfolio-lp/static/js/main.fa061b7c.js",
+    "static/media/Tilli.couture.jpg": "/portfolio-lp/static/media/Tilli.couture.c7f312ae0920b981afa8.jpg",
+    "static/media/Tilli.tilliste.jpg": "/portfolio-lp/static/media/Tilli.tilliste.d43c4195c6d43fccee75.jpg",
+    "static/media/Tilli.home.jpg": "/portfolio-lp/static/media/Tilli.home.70bca9f1af70c768d873.jpg",
+    "static/media/cloud.jpg": "/portfolio-lp/static/media/cloud.d6da98ce617841b42789.jpg",
+    "static/media/Kasa.home.jpg": "/portfolio-lp/static/media/Kasa.home.4e8d667ca1f629473782.jpg",
+    "static/media/booki.mobile.jpg": "/portfolio-lp/static/media/booki.mobile.13e6188270fced860470.jpg",
+    "static/media/booki.home.jpg": "/portfolio-lp/static/media/booki.home.d20b31607a2aad90cd58.jpg",
+    "static/media/tilli.mockup.png": "/portfolio-lp/static/media/tilli.mockup.210587d51b3a5fb0f84e.png",
+    "static/media/Tilli.jpg": "/portfolio-lp/static/media/Tilli.f62d753e5e23e92b9da6.jpg",
+    "static/media/kasa.mockup.png": "/portfolio-lp/static/media/kasa.mockup.fedbf925b6353321016c.png",
+    "static/media/Kasa.jpg": "/portfolio-lp/static/media/Kasa.730f776a58f6dae92ab8.jpg",
+    "static/media/Kasa.room.jpg": "/portfolio-lp/static/media/Kasa.room.2d7f08b3f6c8e70e5a42.jpg",
+    "static/media/booki.jpg": "/portfolio-lp/static/media/booki.4e7e4b2e6f844e2a9b86.jpg",
+    "static/media/retail.jpg": "/portfolio-lp/static/media/retail.573536f091c54632a9bf.jpg",
+    "static/media/Laura_2.png": "/portfolio-lp/static/media/Laura_2.802612881a1ce646f3d9.png",
+    "static/media/linkedin.svg": "/portfolio-lp/static/media/linkedin.05443fe8b01018c56453f77a6a85decc.svg",
+    "static/media/paper-plan-3.svg": "/portfolio-lp/static/media/paper-plan-3.86452be04436df4c42d9b2b479b576b0.svg",
+    "static/media/github.svg": "/portfolio-lp/static/media/github.3359e02273eab05e3dd9da444da8a33e.svg",
+    "index.html": "/portfolio-lp/index.html",
+    "main.9b157989.css.map": "/portfolio-lp/static/css/main.9b157989.css.map",
+    "main.fa061b7c.js.map": "/portfolio-lp/static/js/main.fa061b7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b157989.css",
+    "static/js/main.fa061b7c.js"
+  ]
+}
