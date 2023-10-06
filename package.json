@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "homepage": "https://lautitep.github.io/portfolio-lp",
   "private": true,
-  "engines": {
-    "node": "14.x",
-    "npm": "6.x"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -35,8 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "heroku-postbuild": "npm install && npm run build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
