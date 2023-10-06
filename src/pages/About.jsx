@@ -45,11 +45,16 @@ const RightContainer = styled.div`
     margin-top: 30px;
   }
 `;
-const SkillsContainer = styled.div`
+const SkillsContainerDesktop = styled.div`
+  display: block;
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+const SkillsContainerMobile = styled.div`
   display: none;
   @media (max-width: 768px) {
     display: block;
-    width: 100%;
   }
 `;
 const Subtitle = styled.h2`
@@ -118,36 +123,16 @@ const Date = styled.div`
 `;
 
 function About() {
-  const [isMobile, setIsMobile] = useState(true);
-  const isWindowMobile = () => {
-    return typeof window !== 'undefined' ? window.outerWidth < 768 : true;
-  }
-
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(isWindowMobile());
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-  console.log(isMobile)
   return (
     <Container>
       <BlockContainer>
         <LeftContainer>
           <Subtitle>Laura Petit</Subtitle>
           <Img src={Laura} alt="Laura" />
-          {!isMobile && (
-            <>
-              <Subtitle marginTop>Skills</Subtitle>
-              <Skills />
-            </>
-          )}
+          <SkillsContainerDesktop>
+            <Subtitle marginTop>Skills</Subtitle>
+            <Skills />
+          </SkillsContainerDesktop>
         </LeftContainer>
         <RightContainer>
           <Intro>
@@ -213,10 +198,10 @@ function About() {
             </ExperienceBlock>
           </ExperienceContainer>
         </RightContainer>
-            <SkillsContainer>
-              <Subtitle marginTop>Skills</Subtitle>
-              <Skills />
-            </SkillsContainer>
+        <SkillsContainerMobile>
+          <Subtitle marginTop>Skills</Subtitle>
+          <Skills />
+        </SkillsContainerMobile>
       </BlockContainer>
     </Container>
   );
