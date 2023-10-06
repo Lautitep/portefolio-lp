@@ -123,11 +123,11 @@ function About() {
     return typeof window !== 'undefined' ? window.outerWidth < 768 : true;
   }
 
-  const handleResize = () => {
-    setIsMobile(isWindowMobile());
-  };
 
   useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(isWindowMobile());
+    };
     handleResize();
     window.addEventListener('resize', handleResize);
 

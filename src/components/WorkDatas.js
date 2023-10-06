@@ -19,7 +19,7 @@ export const workDatas = [
     text: 'Dans le cadre de mon alternance chez Tilli j’ai contribué au développement front-end du site tilli.fr en React et également du back-end avec NodeJS sur l’API.',
     techno: ['React', 'NodeJS', 'Typescript', 'Styled Component'],
     mockup: tilliMockup,
-    pages: [tilli3, tilli2, tilli3],
+    pages: [tilli1, tilli2, tilli3],
   },
   {
     image: kasa,
