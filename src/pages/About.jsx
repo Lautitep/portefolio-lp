@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import styled from "styled-components";
 import Skills from "../components/Skills";
 import Laura from "../assets/Laura_2.png"
