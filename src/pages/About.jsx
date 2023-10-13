@@ -42,19 +42,7 @@ const RightContainer = styled.div`
   margin-top: 10px;
   @media (max-width: 768px) {
     width: 100%;
-    margin-top: 30px;
-  }
-`;
-const SkillsContainerDesktop = styled.div`
-  display: block;
-  @media (max-width: 768px) {
-    display: none;
-  }
-`;
-const SkillsContainerMobile = styled.div`
-  display: none;
-  @media (max-width: 768px) {
-    display: block;
+    margin-top: 0px;
   }
 `;
 const Subtitle = styled.h2`
@@ -62,6 +50,7 @@ const Subtitle = styled.h2`
   font-size: 34px;
   font-weight: 700;
   margin: 0;
+  text-align: center;
   ${({ marginTop }) => marginTop && "margin-top: 65px;"}
   @media (max-width: 1024px) {
     font-size: 28px;
@@ -129,10 +118,8 @@ function About() {
         <LeftContainer>
           <Subtitle>Laura Petit</Subtitle>
           <Img src={Laura} alt="Laura" />
-          <SkillsContainerDesktop>
-            <Subtitle marginTop>Skills</Subtitle>
-            <Skills />
-          </SkillsContainerDesktop>
+          <Subtitle marginTop>Skills</Subtitle>
+          <Skills />
         </LeftContainer>
         <RightContainer>
           <Intro>
@@ -198,10 +185,6 @@ function About() {
             </ExperienceBlock>
           </ExperienceContainer>
         </RightContainer>
-        <SkillsContainerMobile>
-          <Subtitle marginTop>Skills</Subtitle>
-          <Skills />
-        </SkillsContainerMobile>
       </BlockContainer>
     </Container>
   );
