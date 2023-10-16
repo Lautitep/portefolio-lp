@@ -123,8 +123,6 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const url = `${getBackendURL()}/send-email`;
-    console.log('env', process.env.NODE_ENV);
-    console.log('url', url);
     try {
       const response = await axios.post(url, formData);
       console.log(response.data); // Display success message from the backend
