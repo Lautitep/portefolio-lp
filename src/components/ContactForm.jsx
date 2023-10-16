@@ -113,14 +113,19 @@ const ContactForm = () => {
     }));
   };
 
+  const getBackendURL = () => {
+    if (process.env.NODE_ENV === 'development') {
+      return 'http://localhost:5000';
+    }
+    return 'https://portfolio-lp-backend-c94f17d883ed.herokuapp.com';
+  }
+
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Send the form data to the backend or handle form submission here
-    console.log(formData);
+    const url = `${getBackendURL()}/send-email`;
     try {
-      const response = await axios.post('http://localhost:5000/send-email', formData);
-      console.log(response.data); // Optional: Display success message from the backend
-      // Optionally, you can reset the form after successful submission:
+      const response = await axios.post(url, formData);
+      console.log(response.data); // Display success message from the backend
       setFormData({
         name: '',
         email: '',
@@ -129,7 +134,6 @@ const ContactForm = () => {
       });
     } catch (error) {
       console.log('Error:', error);
-      // Handle error if the email couldn't be sent
     }
   };
 
