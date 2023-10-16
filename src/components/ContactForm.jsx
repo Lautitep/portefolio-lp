@@ -113,18 +113,9 @@ const ContactForm = () => {
     }));
   };
 
-  const getBackendURL = () => {
-    if (process.env.NODE_ENV === 'development') {
-      return 'http://localhost:5000';
-    }
-    return 'https://portfolio-lp-backend-c94f17d883ed.herokuapp.com';
-  }
-
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = `${getBackendURL()}/send-email`;
-    console.log('env', process.env.NODE_ENV);
-    console.log('url', url);
+    const url = 'https://portfolio-lp-backend-c94f17d883ed.herokuapp.com/send-email';
     try {
       const response = await axios.post(url, formData);
       console.log(response.data); // Display success message from the backend
